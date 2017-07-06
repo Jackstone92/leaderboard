@@ -1,0 +1,34 @@
+/* BEM - Block, Element, Modifier
+  multi-word naming convention is two '_' eg. .item__message
+*/
+
+/* Block */
+.button {
+  background: transparent;
+  color: #555;
+  border: 1px solid #555;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 1.3rem;
+  padding: 1.3rem;
+  outline: none;
+
+  line-height: 1;
+
+  transition: background .2s ease, transform .2s ease;
+  &:hover, &:focus {
+    background: #e8e8e8;
+  }
+
+  &:active {
+    background: #ccc;
+    transform: scale(1.1);
+  }
+}
+
+/* Modifier */
+.button--round {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}

@@ -1,6 +1,6 @@
 # Notes App
 
-This is a notes application built with Meteor and React.
+This is a leaderboard application built with Meteor and React.
 
 ## Getting Started
 
